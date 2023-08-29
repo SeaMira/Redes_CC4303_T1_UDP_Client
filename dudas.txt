@@ -1,0 +1,25 @@
+- Cuando se habla del cálculo del ancho de banda y mencionan "el tiempo transcurrido desde 
+el inicio hasta la recepción del fin de archivo desde el servidor", ¿cuál es el inicio al
+que se refieren?
+
+- ¿Cómo se deben manipular los bytearray que nos piden utilizar? ¿Hay que especificar sus
+tamaños de alguna manera?
+
+- En el código de implementación de probailidad  de pérdida, ¿qué es la variable global 
+"loss rate"? ¿De dónde la sacamos?
+
+- ¿El timeout es el tiempo que se da para que el servidor responda y envíe todos los paquete? 
+¿Cómo se utilizaría y cómo se gatilla el error socket.timeout? Pregunto porque dice
+que implementemos un timeout de 5s pero después se entrega en el comando un parámetro de 
+timeout de 20ms.
+
+- ¿Cómo separamos el carácter inicial del código de secuencia para poder decodear eso y
+no el resto del código?
+
+- ¿La "corrección" que se hace es que el servidor reenvíe la respuesta pedida? ¿Que haya 
+pérdida de datos se verifica porque la respuesta son menos bytes que los propuestos o no?
+
+Perdón por mucho texto, y si estas preguntas serán respondidas mañana en el aux
+también perdón. Por favor grábenlo ;-;
+
+Gracias!
